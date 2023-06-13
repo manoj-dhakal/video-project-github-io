@@ -1,0 +1,128 @@
+p{
+  text-align: center;
+}
+
+h4{
+  text-align: center;
+}
+
+
+body{
+    font-family: "Montserrat";
+    font-size: 50%;
+    color: white;
+    background-color:  purple;
+
+}
+
+.film_name{
+    margin-top: 38vh;
+    font-size: 50px;
+}
+.empty {
+    height: 28vh;
+}
+
+/* Container */
+.container {
+  width: 100%;
+  padding-bottom: 50px;
+    background-color: black;
+    color : white;
+}
+
+/* Heading */
+.container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+    font-size: 50px;
+}
+h2{
+    font-size: 50px;
+    text-align: center;
+}
+p{
+    font-size: 20px;
+}
+/* Team Members */
+.team-members {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.team-member {
+  width: 18%;
+  text-align: center;
+}
+
+.team-member img {
+  width: 100%;
+}
+
+.team-member h3 {
+  margin-top: 10px;
+  font-weight: bold;
+    font-size: 20px
+}
+
+.team-member p {
+  margin-top: 5px;
+}
+
+.navbar {
+      background-color: #fdfdfd;
+      color: #fff;
+      display: flex;
+      justify-content: center;
+      padding: 15px;
+      text-align: center;
+    }
+
+.navbar a {
+  display: inline-block;
+  margin: 0 30px;
+}
+
+
+ #video-container {
+    position: relative;
+    width: 100%;
+    margin: auto;
+     max-width: 1500px;
+
+  }
+
+  #video-player {
+    display: block;
+    width: 100%;
+  }
+
+  #button-link {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+      text-decoration: none;
+
+  }
+
+  #video-button {
+    padding: 20px 30px;
+    background-color: white;
+    color: purple;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+      font-size: 50px;
+  }
+
+.navbar a {
+  color: purple;
+
+  text-decoration: none;
+
+  font-size: 25px
+}

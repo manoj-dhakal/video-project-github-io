@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+
+
+
+    
+</head>
+<body>
+ <div class="navbar" >
+
+    <a href="#about">About the Video</a>
+    <a href="#video-container">Video</a>
+    <a href="#contact">Contact</a>
+  </div>
+<div class = "film_name">
+  <h4>SOS-UH 101: Unleash the Power Within:</h4>
+  
+<marquee behavior="scroll" scrollamount = 17>A Crash Course to Excel, Thrive, and Make the Best of Your Life at New York University Abu Dhabi
+</marquee>
+</div>
+
+
+
+<div class = "empty"></div>
+<div id = "about">
+<div class="container">
+    <h2>About the Video</h2>
+    <p>Get ready to embark on a laughter-filled escapade with "SOS-UH 101: Unleash the Power Within: A Crash Course to Excel, Thrive, and Make the Best of Your Life at New York University Abu Dhabi." This interactive video combines comedy and education to guide students on a transformative journey. Join our protagonists as they learn the art of mischief, explore hypnosis to uncover the truth, and discover the secrets of being a good student. With a captivating lecture by Professor Ameera and scenes featuring dedicated student Abi, this interactive film brings college life at NYU Abu Dhabi to life. </p>
+
+    <p>Excel, thrive, and make the best of your life.</p>
+
+
+
+
+  </div>
+
+ <div id="video-container">
+  <video poster="thumbnail.png" id="video-player" controls onended="showButton()">
+    <source src="video_1.mp4" type="video/mp4">
+  </video>
+  <a href="index_2.html#video-container" id="button-link">
+    <button id="video-button" style="display: none;">Are you sure you want to continue? </button>
+  </a>
+</div>
+
+
+<script>
+  function showButton() {
+    var button = document.getElementById('video-button');
+    button.style.display = 'block';
+  }
+
+  var button = document.getElementById('video-button');
+  button.addEventListener('click', function() {
+    window.location.href = 'index_2.html#video-container';
+  });
+</script>
+
+
+    <h2>Meet the Team</h2>
+    <div id="contact">
+    <div class="team-members">
+      <div class="team-member">
+        <img src="ameera.png" alt="Member 1">
+        <h3>Ameera</h3>
+        <p>Director/Writer/Supporting Cast</p>
+      </div>
+
+      <div class="team-member">
+        <img src="fatima.png" alt="Member 3">
+        <h3>Fatima</h3>
+        <p>Supporting Cast</p>
+      </div>
+        <div class="team-member">
+        <img src="abi.png" alt="Member 2">
+        <h3>Abigail</h3>
+        <p>Writer/Lead Cast</p>
+      </div>
+      <div class="team-member">
+        <img src="nikita.jpg" alt="Member 4">
+        <h3>Nikita</h3>
+        <p>Supporting Cast/On-Set Mixer</p>
+      </div>
+
+      <div class="team-member">
+          <a href="index_2.html#about">
+        <img src="manoj.jpeg" alt="Member 5">
+          </a>
+        <h3>Manoj</h3>
+        <p>Supporting Cast/Boom Operator</p>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+
+
+
+
+</body>
+</html>
